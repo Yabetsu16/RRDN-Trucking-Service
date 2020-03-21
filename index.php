@@ -158,7 +158,7 @@
             <div class="card-header text-center">
               <h1 class="h1-responsive font-weight-bold my-4">Map Location</h1>
             </div>
-            <div class="card-body">
+            <div class="card-body mt-3">
               <div class="z-depth-1-half map-container">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.317139180944!2d121.01741531484134!3d14.694648989742578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b131a40c0fcf%3A0x1bae9b75d3e41698!2s5217%20Sulok%2C%20Valenzuela%2C%201448%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1584772757669!5m2!1sen!2sph" width="325" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
               </div>
