@@ -144,7 +144,7 @@
   </section>
 
   <!-- Footer -->
-  <footer class=" font-small unique-color-dark pt-4" id="#contactUs">
+  <footer class=" font-small unique-color-dark pt-4" id="contactUs">
 
     <!-- Footer Elements -->
     <div class="container-fluid">
