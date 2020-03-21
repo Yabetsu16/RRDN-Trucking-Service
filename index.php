@@ -11,7 +11,7 @@
 <body>
   <div class="container-fluid">
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark unique-color-dark text-center">
-      <a class="navbar-brand" href="#">RRDN Trucking Service</a>
+      <a class="navbar-brand" href="#home">RRDN Trucking Service</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -19,7 +19,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#home">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#aboutUs">About Us</a>
@@ -39,7 +39,7 @@
     </nav>
   </div>
 
-  <main class="mt-5">
+  <main class="mt-5" id="home">
     <div class="jumbotron card card-image vh-100 text-center m-0 d-flex flex-column justify-content-center" style="background-image: url(img/cropped/14.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
       <div class="text-white text-center py-5 px-4">
         <div>
@@ -284,6 +284,16 @@
   <!-- Footer -->
 
   <?php include("scripts.php") ?>
+  <script>
+    $(".nav-link, .navbar-brand, .new-button").click(function() {
+      var sectionTo = $(this).attr("href");
+      $("html, body").animate({
+          scrollTop: $(sectionTo).offset().top
+        },
+        1500
+      );
+    });
+  </script>
 </body>
 
 </html>
