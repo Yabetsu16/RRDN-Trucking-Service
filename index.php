@@ -146,127 +146,123 @@
   <!-- Footer -->
   <footer class=" font-small unique-color-dark pt-3" id="contactUs">
 
-    <!--Grid row-->
-    <div class="row">
-
-      <!--Grid column-->
-      <div class="col-md-6 mb-3">
-        <div class="card">
-          <div class="card-header text-center">
-            <h1 class="h1-responsive font-weight-bold my-4">Map Location</h1>
-          </div>
-          <div class="card-body mt-3">
-            <div class="z-depth-1-half map-container">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.317139180944!2d121.01741531484134!3d14.694648989742578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b131a40c0fcf%3A0x1bae9b75d3e41698!2s5217%20Sulok%2C%20Valenzuela%2C%201448%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1584772757669!5m2!1sen!2sph" width="325" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <div class="container-fluid">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-md-6 mb-3">
+          <div class="card">
+            <div class="card-header text-center">
+              <h1 class="h1-responsive font-weight-bold my-4">Map Location</h1>
+            </div>
+            <div class="card-body mt-3">
+              <div class="z-depth-1-half map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.317139180944!2d121.01741531484134!3d14.694648989742578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b131a40c0fcf%3A0x1bae9b75d3e41698!2s5217%20Sulok%2C%20Valenzuela%2C%201448%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1584772757669!5m2!1sen!2sph" width="325" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <!--Grid column-->
+        <!--Grid column-->
 
-      <div class="col-md-6 mb-4">
+        <div class="col-md-6 mb-4">
+          <div class="card">
+            <div class="card-header">
+              <h2 class="h1-responsive font-weight-bold text-center my-4">
+                Contact us
+              </h2>
+            </div>
+            <section class="m-5">
+              <!--Section description-->
+              <p class="text-center w-responsive mx-auto mb-5">
+                Do you have any questions? Please do not hesitate to contact us
+                directly. Our team will come back to you within a matter of
+                hours to help you.
+              </p>
 
-        <div class="card">
-          <div class="card-header">
-            <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
-          </div>
-          <section class="m-5">
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-md-9 mb-md-0 mb-5">
+                  <form action="" method="POST">
+                    <!--Grid row-->
+                    <div class="row">
+                      <!--Grid column-->
+                      <div class="col-md-6">
+                        <div class="md-form mb-0">
+                          <input type="text" id="name" name="name" class="form-control" />
+                          <label for="name" class="">Your name</label>
+                        </div>
+                      </div>
+                      <!--Grid column-->
 
-            <!--Section description-->
-            <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-              a matter of hours to help you.</p>
+                      <!--Grid column-->
+                      <div class="col-md-6">
+                        <div class="md-form mb-0">
+                          <input type="text" id="email" name="email" class="form-control" />
+                          <label for="email" class="">Your email</label>
+                        </div>
+                      </div>
+                      <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
 
-            <div class="row">
-
-              <!--Grid column-->
-              <div class="col-md-9 mb-md-0 mb-5">
-                <form action="" method="POST">
-
-                  <!--Grid row-->
-                  <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                      <div class="md-form mb-0">
-                        <input type="text" id="name" name="name" class="form-control">
-                        <label for="name" class="">Your name</label>
+                    <!--Grid row-->
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="md-form mb-0">
+                          <input type="text" id="subject" name="subject" class="form-control" />
+                          <label for="subject" class="">Subject</label>
+                        </div>
                       </div>
                     </div>
-                    <!--Grid column-->
+                    <!--Grid row-->
 
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                      <div class="md-form mb-0">
-                        <input type="text" id="email" name="email" class="form-control">
-                        <label for="email" class="">Your email</label>
+                    <!--Grid row-->
+                    <div class="row">
+                      <!--Grid column-->
+                      <div class="col-md-12">
+                        <div class="md-form">
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                          <label for="message">Your message</label>
+                        </div>
                       </div>
                     </div>
-                    <!--Grid column-->
+                    <!--Grid row-->
+                  </form>
 
+                  <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Send</button>
                   </div>
-                  <!--Grid row-->
-
-                  <!--Grid row-->
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="md-form mb-0">
-                        <input type="text" id="subject" name="subject" class="form-control">
-                        <label for="subject" class="">Subject</label>
-                      </div>
-                    </div>
-                  </div>
-                  <!--Grid row-->
-
-                  <!--Grid row-->
-                  <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-12">
-
-                      <div class="md-form">
-                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                        <label for="message">Your message</label>
-                      </div>
-
-                    </div>
-                  </div>
-                  <!--Grid row-->
-
-                </form>
-
-                <div class="text-center">
-                  <button type="submit" class="btn btn-primary">Send</button>
+                  <div class="status"></div>
                 </div>
-                <div class="status"></div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-3 text-center">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <i class="fas fa-map-marker-alt fa-2x"></i>
+                      <p>5217 Sulok, Valenzuela, 1448 Metro Manila</p>
+                    </li>
+
+                    <li>
+                      <i class="fas fa-phone mt-4 fa-2x"></i>
+                      <p>+63 0955 470 5644</p>
+                    </li>
+
+                    <li>
+                      <i class="fas fa-envelope mt-4 fa-2x"></i>
+                      <p>carreonborong@gmail.com</p>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
               </div>
-              <!--Grid column-->
-
-              <!--Grid column-->
-              <div class="col-md-3 text-center">
-                <ul class="list-unstyled mb-0">
-                  <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                    <p>5217 Sulok, Valenzuela, 1448 Metro Manila</p>
-                  </li>
-
-                  <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                    <p>+63 0955 470 5644</p>
-                  </li>
-
-                  <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                    <p>carreonborong@gmail.com</p>
-                  </li>
-                </ul>
-              </div>
-              <!--Grid column-->
-
-            </div>
-
-          </section>
+            </section>
+          </div>
         </div>
       </div>
-
+      <!--Grid row-->
     </div>
-    <!--Grid row-->
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3 text-white">© 2020 Copyright:
