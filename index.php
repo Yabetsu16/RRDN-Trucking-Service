@@ -40,7 +40,7 @@
   </div>
 
   <main class="mt-5" id="home">
-    <div class="jumbotron card card-image vh-100 text-center m-0 d-flex flex-column justify-content-center" style="background-image: url(img/cropped/14.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+    <div class="jumbotron card card-image vh-100 text-center m-0 d-flex flex-column justify-content-center" style="background-image: url(img/cropped/14.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center center; background-color: #464646;">
       <div class="text-white text-center py-5 px-4">
         <div>
           <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Need Movers, Lipat Bahay, a Truck for rent and hired in Valenzuela City.</strong></h2>
