@@ -53,28 +53,80 @@
   </main>
 
   <section id="aboutUs">
-    <div class="jumbotron card vh-100">
+    <div class="jumbotron card vh-100 d-flex flex-column justify-content-center">
       <div class="container text-center mt-5 ">
-        <h1 class="h1-responsive">About Us</h1>
+        <h1 class="h1-responsive mb-5">About Us</h1>
 
-        <p class="lead mt-5">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
-        </p>
+        <div class="row">
+          <div class="col-md-4 col-sm-12 mb-3">
+            <!-- Card -->
+            <div class="card">
+
+              <!-- Card image -->
+              <div class="view overlay flex flex-center mb-3 mt-3">
+                <img src="img/icon/truck.png" style="width: 250px; height: 250px;" class="img-fluid z-depth-1 rounded-circle"
+                alt="Responsive image">
+              </div>
+
+              <!-- Card content -->
+              <div class="card-body">
+
+                <!-- Title -->
+                <h4 class="card-title">Trucks</h4>
+                <h6 class="h6-responsive">We have trucks ready for you</h6>
+
+              </div>
+
+            </div>
+            <!-- Card -->
+          </div>
+
+          <div class="col-md-4 col-sm-12 mb-3">
+            <!-- Card -->
+            <div class="card">
+
+              <!-- Card image -->
+              <div class="view overlay flex flex-center mb-3 mt-3">
+                <img src="img/icon/professional.png" style="width: 250px; height: 250px;" class="img-fluid z-depth-1 rounded-circle"
+                alt="Responsive image">
+              </div>
+
+              <!-- Card content -->
+              <div class="card-body">
+
+                <!-- Title -->
+                <h4 class="card-title">Professional</h4>
+                <h6 class="h6-responsive">We have professional truck drivers</h6>
+
+              </div>
+
+            </div>
+            <!-- Card -->
+          </div>
+
+          <div class="col-md-4 col-sm-12 mb-3">
+            <!-- Card -->
+            <div class="card">
+
+              <!-- Card image -->
+              <div class="view overlay flex flex-center mb-3 mt-3">
+                <img src="img/icon/money.jpg" style="width: 250px; height: 250px;" class="img-fluid z-depth-1 rounded-circle"
+                alt="Responsive image">
+              </div>
+
+              <!-- Card content -->
+              <div class="card-body">
+
+                <!-- Title -->
+                <h4 class="card-title">Save Money</h4>
+                <h6 class="h6-responsive">You can save money</h6>
+
+              </div>
+
+            </div>
+            <!-- Card -->
+          </div>
+        </div>
       </div>
     </div>
   </section>
