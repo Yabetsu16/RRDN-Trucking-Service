@@ -34,10 +34,12 @@
             <a class="nav-link" href="#contactUs">Contact Us</a>
           </li>
         </ul>
-        <button class="btn btn-outline-light">Request A Quote</button>
+        <button data-toggle="modal" data-target="#modalRequestQuote" class="btn btn-outline-light">Request A Quote</button>
       </div>
     </nav>
   </div>
+
+  <?php include("modals/request_quote_modal.php") ?>
 
   <main class="mt-5" id="home">
     <div class="jumbotron card card-image vh-100 text-center m-0 d-flex flex-column justify-content-center" style="background-image: url(img/cropped/14.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center center; background-color: #464646;">
@@ -46,93 +48,98 @@
           <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Need Movers, Lipat Bahay, a Truck for rent and hired in Valenzuela City.</strong></h2>
           <p class="mx-5 mb-5">We accepted a trip to Metro Manila, Luzon, Visayas and Mindanao
           </p>
-          <a class="btn btn-outline-white btn-lg"><i class="fas fa-clone left"></i> Request a quote</a>
+          <button data-toggle="modal" data-target="#modalRequestQuote" class="btn btn-outline-light btn-lg">Request A Quote</button>
         </div>
       </div>
     </div>
   </main>
 
   <section id="aboutUs">
-    <div class="jumbotron card vh-100 d-flex flex-column justify-content-center">
-      <div class="container text-center mt-5 ">
+    <div class="jumbotron card pb-5">
+      <div class="text-center mt-5 ">
         <h1 class="h1-responsive mb-5">About Us</h1>
 
-        <div class="row">
-          <div class="col-md-4 col-sm-12 mb-3">
-            <!-- Card -->
-            <div class="card">
+        <div class="justify-content-center pt-5">
+          <div class="row">
 
-              <!-- Card image -->
-              <div class="view overlay flex flex-center mb-3 mt-3">
-                <img src="img/icon/truck.png" style="width: 250px; height: 250px;" class="img-fluid z-depth-1 rounded-circle"
-                alt="Responsive image">
+            <div class="col-md-4 col-sm-12 mb-3">
+              <!-- Card -->
+              <div class="card">
+
+                <!-- Card image -->
+                <div class="view overlay flex flex-center mb-3 mt-3">
+                  <img src="img/icon/truck.png" style="width: 250px; height: 250px;" class="img-fluid z-depth-1 rounded-circle"
+                  alt="Responsive image">
+                </div>
+
+                <!-- Card content -->
+                <div class="card-body">
+
+                  <!-- Title -->
+                  <h4 class="card-title">Trucks</h4>
+                  <h6 class="h6-responsive">We have trucks ready for you</h6>
+
+                </div>
+
               </div>
-
-              <!-- Card content -->
-              <div class="card-body">
-
-                <!-- Title -->
-                <h4 class="card-title">Trucks</h4>
-                <h6 class="h6-responsive">We have trucks ready for you</h6>
-
-              </div>
-
+              <!-- Card -->
             </div>
-            <!-- Card -->
-          </div>
 
-          <div class="col-md-4 col-sm-12 mb-3">
-            <!-- Card -->
-            <div class="card">
+            <div class="col-md-4 col-sm-12 mb-3">
+              <!-- Card -->
+              <div class="card">
 
-              <!-- Card image -->
-              <div class="view overlay flex flex-center mb-3 mt-3">
-                <img src="img/icon/professional.png" style="width: 250px; height: 250px;" class="img-fluid z-depth-1 rounded-circle"
-                alt="Responsive image">
+                <!-- Card image -->
+                <div class="view overlay flex flex-center mb-3 mt-3">
+                  <img src="img/icon/professional.png" style="width: 250px; height: 250px;" class="img-fluid z-depth-1 rounded-circle"
+                  alt="Responsive image">
+                </div>
+
+                <!-- Card content -->
+                <div class="card-body">
+
+                  <!-- Title -->
+                  <h4 class="card-title">Professional</h4>
+                  <h6 class="h6-responsive">We have professional truck drivers</h6>
+
+                </div>
+
               </div>
-
-              <!-- Card content -->
-              <div class="card-body">
-
-                <!-- Title -->
-                <h4 class="card-title">Professional</h4>
-                <h6 class="h6-responsive">We have professional truck drivers</h6>
-
-              </div>
-
+              <!-- Card -->
             </div>
-            <!-- Card -->
-          </div>
 
-          <div class="col-md-4 col-sm-12 mb-3">
-            <!-- Card -->
-            <div class="card">
+            <div class="col-md-4 col-sm-12 mb-3">
+              <!-- Card -->
+              <div class="card">
 
-              <!-- Card image -->
-              <div class="view overlay flex flex-center mb-3 mt-3">
-                <img src="img/icon/money.jpg" style="width: 250px; height: 250px;" class="img-fluid z-depth-1 rounded-circle"
-                alt="Responsive image">
+                <!-- Card image -->
+                <div class="view overlay flex flex-center mb-3 mt-3">
+                  <img src="img/icon/money.jpg" style="width: 250px; height: 250px;" class="img-fluid z-depth-1 rounded-circle"
+                  alt="Responsive image">
+                </div>
+
+                <!-- Card content -->
+                <div class="card-body">
+
+                  <!-- Title -->
+                  <h4 class="card-title">Save Money</h4>
+                  <h6 class="h6-responsive">You can save money</h6>
+
+                </div>
+
               </div>
-
-              <!-- Card content -->
-              <div class="card-body">
-
-                <!-- Title -->
-                <h4 class="card-title">Save Money</h4>
-                <h6 class="h6-responsive">You can save money</h6>
-
-              </div>
-
+              <!-- Card -->
             </div>
-            <!-- Card -->
+            
           </div>
         </div>
+
       </div>
     </div>
   </section>
 
   <section id="service">
-    <div class="jumbotron card vh-100">
+    <div class="jumbotron card">
       <div class="container text-center mt-5 ">
         <h1 class="display-1">Service</h1>
 
@@ -164,7 +171,7 @@
   </section>
 
   <section id="ourTrucks">
-    <div class="jumbotron card vh-100">
+    <div class="jumbotron card">
       <div class="container text-center mt-5 ">
         <h1 class="display-1">Our Trucks</h1>
 
@@ -336,6 +343,15 @@
       );
     });
   </script>
+
+<script>
+    
+$('#phone').keyup(function(){
+    $(this).val($(this).val().replace(/(\d{4})\-?(\d{3})\-?(\d{4})/,'$1-$2-$3'))
+});
+
+$('.my-select').selectpicker();
+</script>
 </body>
 
 </html>
