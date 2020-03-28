@@ -86,7 +86,7 @@
                 </div>
             </div>
                 <div class="modal-footer d-flex justify-content-center">
-                    <button class="btn btn-unique">Send <i class="fa fa-paper-plane ml-1"></i></button>
+                    <button class="btn btn-primary">Send <i class="fa fa-paper-plane ml-1"></i></button>
                 </div>
             </div>
       </form>
