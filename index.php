@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>RRDN Trucking Service</title>
   <?php include("header.php") ?>
+  <?php include("receiveForm.php") ?>
 </head>
 
 <body>
@@ -286,13 +287,13 @@
                       </div>
                     </div>
                     <!--Grid row-->
-                  </form>
+                  
 
-                  <div class="text-center">
-                    <button type="submit" class="btn btn-primary">Send</button>
+                    <div class="text-center">
+                      <button type="submit" name="sendMessage" class="btn btn-primary">Send</button>
+                    </div>
                   </div>
-                  <div class="status"></div>
-                </div>
+                </form>
                 <!--Grid column-->
 
                 <!--Grid column-->

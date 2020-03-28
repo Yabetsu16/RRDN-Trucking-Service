@@ -6,3 +6,5 @@
 <link rel="stylesheet" href="dist/css/all.min.css" />
 <link rel="stylesheet" href="dist/css/bootstrap-select.min.css">
 <link rel="stylesheet" href="dist/css/style.css" />
+
+<?php include("connection.inc/connection.php"); ?>
