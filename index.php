@@ -32,6 +32,9 @@
             <a class="nav-link" href="#ourTrucks">Our Trucks</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#ourValuedClients">Our Valued Clients</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#contactUs">Contact Us</a>
           </li>
         </ul>
@@ -161,70 +164,350 @@
 
   <section id="service">
     <div class="jumbotron card">
-      <div class="container text-center mt-5 ">
-        <h1 class="display-1">Service</h1>
+      <div class="container-fluid text-center mt-5 ">
+        <h1 class="h1-responsive mb-5">Services</h1>
+        <div class="row">
+          <div class="col-lg-3 mb-5">
+            <!-- Card Wider -->
+            <div class="card card-cascade wider">
 
-        <p class="lead mt-5">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
-        </p>
+              <!-- Card image -->
+              <div class="view view-cascade overlay">
+                <img class="card-img-top" src="img/original/lipat_bahay.jpg" alt="Lipat Bahay" height="241px">
+                <a href="#!">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+
+              <!-- Card content -->
+              <div class="card-body card-body-cascade text-center pb-0">
+
+                <!-- Title -->
+                <h4 class="card-title"><strong>Lipat Bahay</strong></h4>
+                <!-- Text -->
+                <p class="card-text text-justify">Our main priority is protection of your house. Our household moving service ensures optimum safety by maintaining an inventory of all items, installing suspension system and security in our vehicles, and ensuring that it accounts for everuthing in the inventory.</p>
+                <br><br>
+
+                <!-- Card footer -->
+                <div class="card-footer text-muted text-center mt-4">
+                </div>
+
+              </div>
+
+            </div>
+            <!-- Card Wider -->
+          </div>
+          <div class="col-lg-3 mb-5">
+            <!-- Card Wider -->
+            <div class="card card-cascade wider">
+
+              <!-- Card image -->
+              <div class="view view-cascade overlay">
+                <img class="card-img-top" src="img/original/office_transfer.jpg" alt="Office Transfer" height="241px">
+                <a href="#!">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+
+              <!-- Card content -->
+              <div class="card-body card-body-cascade text-center pb-0">
+
+                <!-- Title -->
+                <h4 class="card-title"><strong>Office Transfer</strong></h4>
+                <!-- Text -->
+                <p class="card-text text-justify pb-4">Office transfer is a huge undertaking and involves a substantial amount of time and pressure. But by using our services, we can help you relieve such consuming task with our end to end process. We can help you to move, do an inventory of all your office equipment and personal material, store every files and documents accordingly and devise a layout for the new office.</p>
+  
+                <!-- Card footer -->
+                <div class="card-footer text-muted text-center mt-4">
+                </div>
+
+              </div>
+
+            </div>
+            <!-- Card Wider -->
+          </div>
+          <div class="col-lg-3 mb-5">
+            <!-- Card Wider -->
+            <div class="card card-cascade wider">
+
+              <!-- Card image -->
+              <div class="view view-cascade overlay">
+                <img class="card-img-top" src="img/original/trucking_service.jpeg" alt="Trucking Service" height="241px">
+                <a href="#!">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+
+              <!-- Card content -->
+              <div class="card-body card-body-cascade text-center pb-0">
+
+                <!-- Title -->
+                <h4 class="card-title"><strong>Trucking SErivice</strong></h4>
+                <!-- Text -->
+                <p class="card-text text-justify">RRDN Trucking is a 24-hour carrier that provides door-to-door full trucking via roll-on roll-off (roro) vessels anywhere in the Philippines. We welcome general lifting and transportation cargoes. Efficient and cost-effective, our RRDN Trucking is your top moving alternative. Whether it's a residential, corporate or basic relocation, our professional driver and caretaker team will certainly guarantee you a comprehensive and trouble-free dorr-to-door transfer.</p>
+                <!-- Card footer -->
+                <div class="card-footer text-muted text-center mt-4">
+                </div>
+
+              </div>
+
+            </div>
+            <!-- Card Wider -->
+          </div>
+          <div class="col-lg-3 mb-5">
+            <!-- Card Wider -->
+            <div class="card card-cascade wider">
+
+              <!-- Card image -->
+              <div class="view view-cascade overlay">
+                <img class="card-img-top" src="img/original/warehouse_transfer.jpg" alt="Warehouse Transfer" height="241px">
+                <a href="#!">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+
+              <!-- Card content -->
+              <div class="card-body card-body-cascade text-center pb-0">
+
+                <!-- Title -->
+                <h4 class="card-title"><strong>Warehouse Transfer</strong></h4>
+                <!-- Text -->
+                <p class="card-text text-justify">Does your warehouse goods transport prove to be a challenge for your business? Our highly effective and professional staff can ensure excellent retail inventory management and distribution. From inventory to the on-the-clock delivery of your products, our professional workers exoect nothing but outstanding service.</p>
+                <br>
+                <!-- Card footer -->
+                <div class="card-footer text-muted text-center mt-4">
+                </div>
+
+              </div>
+
+            </div>
+            <!-- Card Wider -->
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <section id="ourTrucks">
     <div class="jumbotron card">
-      <div class="container text-center mt-5 ">
-        <h1 class="display-1">Our Trucks</h1>
+      <div class="container-fluid text-center mt-5 ">
+        <h1 class="h1-responsive mb-5">Our Trucks</h1>
+        <div class="row">
+          <div class="col-lg-4 mb-5">
+            <!-- Card Wider -->
+            <div class="card card-cascade wider">
 
-        <p class="lead mt-5">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
-        </p>
+              <!-- Card image -->
+              <div class="view view-cascade overlay">
+                <img class="card-img-top" src="img/original/L300.jpg" alt="Mitsubishi L300 FB">
+                <a href="#!">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+
+              <!-- Card content -->
+              <div class="card-body card-body-cascade text-center pb-0">
+
+                <!-- Title -->
+                <h4 class="card-title"><strong>Mitsubishi L300 FB</strong></h4>
+                <!-- Text -->
+                <p class="card-text">14ft Long, 5.9ft Height, 5.5ft Width</p>
+                <!-- Card footer -->
+                <div class="card-footer text-center mt-4">
+                 <button data-toggle="modal" data-target="#modalRequestQuote" class="btn btn-primary btn-lg">Request A Quote</button>
+                </div>
+
+              </div>
+
+            </div>
+            <!-- Card Wider -->
+          </div>
+          <div class="col-lg-4 mb-5">
+            <!-- Card Wider -->
+            <div class="card card-cascade wider">
+
+              <!-- Card image -->
+              <div class="view view-cascade overlay">
+                <img class="card-img-top" src="img/original/open_4_truck.jpg" alt="4-Wheeler Open Truck">
+                <a href="#!">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+
+              <!-- Card content -->
+              <div class="card-body card-body-cascade text-center pb-0">
+
+                <!-- Title -->
+                <h4 class="card-title"><strong>4-Wheeler Open Truck</strong></h4>
+                <!-- Text -->
+                <p class="card-text">11ft Long, 4ft Height, 5.4ft Width </p>
+                <!-- Card footer -->
+                <div class="card-footer text-center mt-4">
+                  <button data-toggle="modal" data-target="#modalRequestQuote" class="btn btn-primary btn-lg">Request A Quote</button>
+                </div>
+
+              </div>
+
+            </div>
+            <!-- Card Wider -->
+          </div>
+          <div class="col-lg-4 mb-5">
+            <!-- Card Wider -->
+            <div class="card card-cascade wider">
+
+              <!-- Card image -->
+              <div class="view view-cascade overlay">
+                <img class="card-img-top" src="img/original/closed_4_van.jpg" alt="4-Wheeler Closed Van">
+                <a href="#!">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+
+              <!-- Card content -->
+              <div class="card-body card-body-cascade text-center pb-0">
+
+                <!-- Title -->
+                <h4 class="card-title"><strong>4-Wheeler Closed Van</strong></h4>
+                <!-- Text -->
+                <p class="card-text">12ft Long, 7ft Height, 6ft Width</p>
+
+                <!-- Card footer -->
+                <div class="card-footer text-center mt-4">
+                  <button data-toggle="modal" data-target="#modalRequestQuote" class="btn btn-primary btn-lg">Request A Quote</button>
+                </div>
+
+              </div>
+
+            </div>
+            <!-- Card Wider -->
+          </div>
+          <div class="col-lg-4 mb-5">
+            <!-- Card Wider -->
+            <div class="card card-cascade wider">
+
+              <!-- Card image -->
+              <div class="view view-cascade overlay">
+                <img class="card-img-top" src="img/original/closed_6_van.jpg" alt="6-Wheeler Closed Van">
+                <a href="#!">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+
+              <!-- Card content -->
+              <div class="card-body card-body-cascade text-center pb-0">
+
+                <!-- Title -->
+                <h4 class="card-title"><strong>6-Wheeler Closed Van</strong></h4>
+                <!-- Text -->
+                <p class="card-text">14ft Long, 7.5ft Height, 7.5ft Width</p>
+
+                <!-- Card footer -->
+                <div class="card-footer text-center mt-4">
+                  <button data-toggle="modal" data-target="#modalRequestQuote" class="btn btn-primary btn-lg">Request A Quote</button>
+                </div>
+
+              </div>
+
+            </div>
+            <!-- Card Wider -->
+          </div>
+          <div class="col-lg-4"></div>
+          <div class="col-lg-4 mb-5">
+            <!-- Card Wider -->
+            <div class="card card-cascade wider">
+
+              <!-- Card image -->
+              <div class="view view-cascade overlay">
+                <img class="card-img-top" src="img/original/forward_6_wingvan.jpg" alt="6-Wheeler Forward Wingvan">
+                <a href="#!">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+
+              <!-- Card content -->
+              <div class="card-body card-body-cascade text-center pb-0">
+
+                <!-- Title -->
+                <h4 class="card-title"><strong>Alison Belmont</strong></h4>
+                <p class="card-text">22ft Long, 8ft Height, 7.5ft Width</p>
+
+                <!-- Card footer -->
+                <div class="card-footer text-center mt-4">
+                  <button data-toggle="modal" data-target="#modalRequestQuote" class="btn btn-primary btn-lg">Request A Quote</button>
+                </div>
+
+              </div>
+
+            </div>
+            <!-- Card Wider -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ourValuedClients">
+    <div class="jumbotron card">
+      <div class="container-fluid text-center mt-5 ">
+        <h1 class="h1-responsive mb-5">Our Valued Clients</h1>
+        <div id="valuedClients" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="img/original/client1.jpg" height="auto"
+                alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/original/client2.jpg" height="auto"
+                alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/original/client3.jpg" height="auto"
+                alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/original/client4.jpg" height="auto"
+                alt="Fourth slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/original/client5.jpg" height="auto"
+                alt="Fifth slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/original/client6.jpg" height="auto"
+                alt="Sixth slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/original/client7.jpg" height="auto"
+                alt="Seventh slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/original/client8.jpg" height="auto"
+                alt="Eighth slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/original/client9.jpg" height="auto"
+                alt="Nineth slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/original/client10.jpg" height="auto"
+                alt="Tenth slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#valuedClients" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#valuedClients" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class=" font-small unique-color-dark pt-3" id="contactUs">
+  <footer class=" font-small unique-color pt-3" id="contactUs">
 
     <div class="container-fluid">
       <!--Grid row-->

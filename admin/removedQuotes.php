@@ -4,7 +4,7 @@
           <div class="row">
             <div class="col-md-12">
                 <form action="" method="post">
-                    <button type="submit" name="hide" class="btn btn-default float-right">Go back</button>
+                    <button type="submit" name="hideQuote" class="btn btn-default float-right">Go back to Quotes</button>
                 </form>
             </div>
             <?php if ($result_removed->num_rows <= 0) { ?>
@@ -27,7 +27,7 @@
                 $pick_up_location = $row['pick_up_location'];
                 $drop_location = $row['drop_location'];
                 $truck = $row['truck'];
-                $cargo = $row['cargo'];
+                $service = $row['service'];
                 $remarks = $row['remarks'];
                 $status = $row['status'];
               ?>
@@ -66,7 +66,7 @@
                       <div class="md-v-line"></div><i class="fas fa-truck fa-lg mr-4"></i> <?php echo $truck; ?>
                     </li>
                     <li class="list-group-item">
-                      <div class="md-v-line"></div><i class="fas fa-truck-loading fa-lg mr-4"></i> <?php echo $cargo; ?>
+                      <div class="md-v-line"></div><i class="fas fa-truck-loading fa-lg mr-4"></i> <?php echo $service; ?>
                     </li>
                     <li class="list-group-item">
                       <div class="md-v-line"></div><i class="fas fa-pencil-alt fa-lg mr-4"></i> <?php echo $remarks; ?>
@@ -77,8 +77,8 @@
                 <div class="card-footer text-center">
                     <form action="" method="post">
                         <input type="hidden" name="id" value="<?php echo $id ?>">
-                        <button type="submit" name="restore" class="btn btn-success">Restore</button>
-                        <button type="submit" name="permanent" class="btn btn-danger">Permanently Remove</button>
+                        <button type="submit" name="restoreQuote" class="btn btn-success">Restore</button>
+                        <button type="submit" name="permanentQuote" class="btn btn-danger">Permanently Remove</button>
                     </form>
                 </div>
 
