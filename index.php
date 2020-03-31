@@ -11,7 +11,7 @@
 
 <body>
   <div class="container-fluid">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark unique-color-dark text-center">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark unique-color text-center">
       <a class="navbar-brand" href="#home">RRDN Trucking Service</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -35,7 +35,24 @@
             <a class="nav-link" href="#contactUs">Contact Us</a>
           </li>
         </ul>
-        <button data-toggle="modal" data-target="#modalRequestQuote" class="btn btn-outline-light">Request A Quote</button>
+         <ul class="navbar-nav ml-auto nav-flex-icons">
+          <li class="nav-item mt-1">
+            <a class="nav-link waves-effect waves-light">
+              <i class="fab fa-facebook fa-2x"></i>
+            </a>
+          </li>
+          <li class="nav-item mt-1">
+            <a class="nav-link waves-effect waves-light">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+          </li>
+          <li class="nav-item mt-1">
+            <a class="nav-link waves-effect waves-light">
+              <i class="fab fa-youtube fa-2x"></i>
+            </a>
+          </li>
+        </ul>
+        
       </div>
     </nav>
   </div>
@@ -46,10 +63,10 @@
     <div class="jumbotron card card-image vh-100 text-center m-0 d-flex flex-column justify-content-center" style="background-image: url(img/cropped/14.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center center; background-color: #464646;">
       <div class="text-white text-center py-5 px-4">
         <div>
-          <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Need Movers, Lipat Bahay, a Truck for rent and hired in Valenzuela City.</strong></h2>
+          <h2 class="card-title h1-responsive pt-3 mb-5 font-weight-bold">You Pick the Location and We Will Take Care of the Rest <br> Thank you for choosing RRDN Trucking!</h2>
           <p class="mx-5 mb-5">We accepted a trip to Metro Manila, Luzon, Visayas and Mindanao
           </p>
-          <button data-toggle="modal" data-target="#modalRequestQuote" class="btn btn-outline-light btn-lg">Request A Quote</button>
+          <button data-toggle="modal" data-target="#modalRequestQuote" class="btn btn-primary btn-lg">Request A Quote</button>
         </div>
       </div>
     </div>
@@ -57,79 +74,82 @@
 
   <section id="aboutUs">
     <div class="jumbotron card pb-5">
-      <div class="text-center mt-5 ">
+      <div class="text-center">
         <h1 class="h1-responsive mb-5">About Us</h1>
-
+        <div class="container text-justify text-center">
+          <p class="card-title">
+          RRDN Trucking Services is located at Valenzuela City, Metro Manila. Our main objective is to deliver your valuable products to your intended destinators at the right time without causing any harm, giving you satisfaction with our services. We provide trucking services with open and closed trucks rentals.
+          </p>
+          <p>
+            We transport freight throughtout the Philippines, most notably in Metro Manila, Bulacan, Laguna, Cavite and other areas. We are a trucking company team that offers complete distribution of goods to drive you to your respective locations. 
+          </p>
+          <p class="font-weight-bold">RRDN Trucking Services is a service company engaged in Lipat Bahay, Office and Warehouse transfer, Door to Door and Trucking Services, operating and gained exceptional experience since 2009.</p>
+        </div>
         <div class="justify-content-center pt-5">
           <div class="row">
 
-            <div class="col-md-4 col-sm-12 mb-3">
-              <!-- Card -->
+            <div class="col-lg-3 col-md-12 col-sm-12 mb-3">
               <div class="card">
 
-                <!-- Card image -->
-                <div class="view overlay flex flex-center mb-3 mt-3">
+                <div class="card-header view overlay flex flex-center mt-3">
                   <img src="img/icon/truck.png" style="width: 250px; height: 250px;" class="img-fluid z-depth-1 rounded-circle"
                   alt="Responsive image">
                 </div>
 
-                <!-- Card content -->
                 <div class="card-body">
 
-                  <!-- Title -->
-                  <h4 class="card-title">Trucks</h4>
-                  <h6 class="h6-responsive">We have trucks ready for you</h6>
+                  <div class="container">
+                    <h4 class="card-title mb-4">The Trucks that you need</h4>
+                    <h6 class="h6-responsive text-justify text-center">We have a selection of trucks to rent available. We've got small, medium, and big trucks you can count on. Rent the right truck at the right time and ask about our full fleet today. </h6>
+                    <br><br>
+                  </div>
 
                 </div>
-
               </div>
-              <!-- Card -->
             </div>
 
-            <div class="col-md-4 col-sm-12 mb-3">
-              <!-- Card -->
+            <div class="col-lg-1"></div>
+
+            <div class="col-lg-3 col-md-12 col-sm-12 mb-3">
               <div class="card">
 
-                <!-- Card image -->
-                <div class="view overlay flex flex-center mb-3 mt-3">
+                <div class="card-header view overlay flex flex-center mt-3">
                   <img src="img/icon/professional.png" style="width: 250px; height: 250px;" class="img-fluid z-depth-1 rounded-circle"
                   alt="Responsive image">
                 </div>
 
-                <!-- Card content -->
-                <div class="card-body">
+                <div class="card-body mb-2">
 
-                  <!-- Title -->
-                  <h4 class="card-title">Professional</h4>
-                  <h6 class="h6-responsive">We have professional truck drivers</h6>
+                  <div class="container">
+                    <h4 class="card-title mb-3">Professionalism</h4>
+                    <h6 class="h6-responsive text-justify text-center">We attach importance to our customers because we keep our vehicles in good shpae and provide our drivers with intensive training  and monitoring to ensure protection as we push them along the route. We also carry out personality tests, background checking and strict screening procedures for all of our stuff.</h6>
+                  </div>
 
                 </div>
-
               </div>
-              <!-- Card -->
             </div>
 
-            <div class="col-md-4 col-sm-12 mb-3">
-              <!-- Card -->
+            <div class="col-lg-1"></div>
+
+            <div class="col-lg-3 col-md-12 col-sm-12 mb-3">
               <div class="card">
 
-                <!-- Card image -->
-                <div class="view overlay flex flex-center mb-3 mt-3">
+                <div class="card-header view overlay flex flex-center mt-3">
                   <img src="img/icon/money.jpg" style="width: 250px; height: 250px;" class="img-fluid z-depth-1 rounded-circle"
                   alt="Responsive image">
                 </div>
 
-                <!-- Card content -->
                 <div class="card-body">
 
-                  <!-- Title -->
-                  <h4 class="card-title">Save Money</h4>
-                  <h6 class="h6-responsive">You can save money</h6>
+                  <div class="container">
 
+                    <h4 class="card-title mb-3">Save Time, Energy and your Money</h4>
+                    <h6 class="h6-responsive text-justify text-center">With our fair trucking service rate, we will help you save money, instead of buying your own delivery truck. Get a quote today for the right truck you need, and get the right price.</h6>
+                    <br><br>
+
+                  </div>
                 </div>
-
               </div>
-              <!-- Card -->
             </div>
             
           </div>
