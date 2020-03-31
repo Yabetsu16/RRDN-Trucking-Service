@@ -4,7 +4,7 @@
           <div class="row">
             <div class="col-md-12">
                 <form action="" method="post">
-                    <button type="submit" name="show" class="btn btn-default float-right">Show removed quotes</button>
+                    <button type="submit" name="showQuote" class="btn btn-default float-right">Show removed quotes</button>
                 </form>
             </div>
             <?php if ($result->num_rows <= 0) { ?>
@@ -78,10 +78,10 @@
                     <form action="" method="post">
                         <input type="hidden" name="id" value="<?php echo $id ?>">
                         <input type="hidden" name="status" value="<?php echo $status ?>">
-                        <button type="submit" name="mark" class="btn btn-primary"> 
+                        <button type="submit" name="markQuote" class="btn btn-primary"> 
                             <?php if ($status == 0) { ?> Mark <i class="fa fa-check" aria-hidden="true"></i></button> 
                             <?php } else { ?> Unmark <i class="fa fa-times" aria-hidden="true"></i></button> <?php } ?>
-                        <button type="submit" name="remove" class="btn btn-danger">Remove</button>
+                        <button type="submit" name="removeQuote" class="btn btn-danger">Remove</button>
                     </form>
                 </div>
 

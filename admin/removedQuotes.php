@@ -4,7 +4,7 @@
           <div class="row">
             <div class="col-md-12">
                 <form action="" method="post">
-                    <button type="submit" name="hide" class="btn btn-default float-right">Go back</button>
+                    <button type="submit" name="hideQuote" class="btn btn-default float-right">Go back to Quotes</button>
                 </form>
             </div>
             <?php if ($result_removed->num_rows <= 0) { ?>
@@ -77,8 +77,8 @@
                 <div class="card-footer text-center">
                     <form action="" method="post">
                         <input type="hidden" name="id" value="<?php echo $id ?>">
-                        <button type="submit" name="restore" class="btn btn-success">Restore</button>
-                        <button type="submit" name="permanent" class="btn btn-danger">Permanently Remove</button>
+                        <button type="submit" name="restoreQuote" class="btn btn-success">Restore</button>
+                        <button type="submit" name="permanentQuote" class="btn btn-danger">Permanently Remove</button>
                     </form>
                 </div>
 

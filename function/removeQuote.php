@@ -8,7 +8,7 @@
     $sql .= "DELETE FROM quotes_tb WHERE quote_id = $id";
 
     if ($conn->multi_query($sql) === TRUE) {
-        header("Location: indexRemoved.php");
+        header("Location: indexRemovedQuote.php");
     }
     else {
         echo "Error: " . $sql . "<br>" . $conn->error;

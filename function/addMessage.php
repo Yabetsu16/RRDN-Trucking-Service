@@ -1,5 +1,5 @@
 <?php 
-    $sql = "INSERT INTO message_tb (name, email, subject, message)
+    $sql = "INSERT INTO messages_tb (name, email, subject, message)
     VALUES ('$name', '$email','$subject', '$message')";
 
     if ($conn->query($sql) === TRUE) {

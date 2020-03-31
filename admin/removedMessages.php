@@ -4,20 +4,20 @@
           <div class="row">
             <div class="col-md-12">
                 <form action="" method="post">
-                    <button type="submit" name="showMessage" class="btn btn-default float-right">Show removed messages</button>
+                    <button type="submit" name="hideMessage" class="btn btn-default float-right">Go back to Messages</button>
                 </form>
             </div>
-            <?php if ($result_message->num_rows <= 0) { ?>
+            <?php if ($result_removed_messages->num_rows <= 0) { ?>
               <div class="col-md-12 mt-5">
                 <div class="jumbotron text-center">
-                  <h1 class="display-3">There are no quotes sent.</h1>
+                  <h1 class="display-3">There are no removed quotes.</h1>
                 </div>
               </div>
             <?php } 
             else { ?>
             <?php 
-              while($row = $result_message->fetch_assoc()) { 
-                $id = $row['message_id'];
+              while($row = $result_removed_messages->fetch_assoc()) { 
+                $id = $row['remove_message_id'];
                 $name = $row['name'];
                 $email = $row['email'];
                 $subject = $row['subject'];
@@ -28,7 +28,7 @@
 
               <div class="card">
 
-                <div class="card-header text-center <?php if ($status == 0) { echo 'bg-danger text-white';} else { echo 'bg-success text-white'; }?>">
+                <div class="card-header text-center">
                   <h3 class="card-title"><?php echo $name; ?></h3>
                 </div>
 
@@ -49,11 +49,8 @@
                 <div class="card-footer text-center">
                     <form action="" method="post">
                         <input type="hidden" name="id" value="<?php echo $id ?>">
-                        <input type="hidden" name="status" value="<?php echo $status ?>">
-                        <button type="submit" name="markMessage" class="btn btn-primary"> 
-                            <?php if ($status == 0) { ?> Mark as Readed <i class="fa fa-check" aria-hidden="true"></i></button> 
-                            <?php } else { ?> Unmark as Readed <i class="fa fa-times" aria-hidden="true"></i></button> <?php } ?>
-                        <button type="submit" name="removeMessage" class="btn btn-danger">Remove</button>
+                        <button type="submit" name="restoreMessage" class="btn btn-success">Restore</button>
+                        <button type="submit" name="permanentMessage" class="btn btn-danger">Permanently Remove</button>
                     </form>
                 </div>
 
