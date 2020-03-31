@@ -24,7 +24,7 @@
                 $message = $row['message'];
                 $status = $row['status'];
               ?>
-            <div class="col-md-4 mb-5">
+            <div class="col-md-3 mb-5">
 
               <div class="card">
 
