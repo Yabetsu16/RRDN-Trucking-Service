@@ -8,8 +8,9 @@
   <?php include("header.php"); ?>
   <?php include("receiveForm.php"); ?>
   <?php include("../function/showQuotes.php"); ?>
-  <?php include("../function/showRemovedQuotes.php"); ?>
   <?php include("../function/showMessages.php"); ?>
+  <?php include("../function/showRemovedQuotes.php"); ?>
+  <?php include("../function/showRemovedMessages.php"); ?>
 </head>
 <body onload="myFunction()">
       <nav class="navbar navbar-expand-lg navbar-dark unique-color-dark text-center">

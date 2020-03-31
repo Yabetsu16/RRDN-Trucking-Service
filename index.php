@@ -513,21 +513,21 @@
       <!--Grid row-->
       <div class="row">
         <!--Grid column-->
-        <div class="col-md-6 mb-3">
-          <div class="card">
+        <div class="col-md-6 pb-3">
+          <div class="card pb-5">
             <div class="card-header text-center">
               <h1 class="h1-responsive font-weight-bold my-4">Map Location</h1>
             </div>
             <div class="card-body mt-3">
               <div class="z-depth-1-half map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.317139180944!2d121.01741531484134!3d14.694648989742578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b131a40c0fcf%3A0x1bae9b75d3e41698!2s5217%20Sulok%2C%20Valenzuela%2C%201448%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1584772757669!5m2!1sen!2sph" width="325" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.180790832725!2d120.95136831484143!3d14.70236588973775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b388aa58fdaf%3A0x44e13acf81680aef!2s5091%20Sulok%2C%20Manila%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1585645885222!5m2!1sen!2sph" width="325" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
               </div>
             </div>
           </div>
         </div>
         <!--Grid column-->
 
-        <div class="col-md-6 mb-4">
+        <div class="col-md-6">
           <div class="card">
             <div class="card-header">
               <h2 class="h1-responsive font-weight-bold text-center my-4">
@@ -544,7 +544,7 @@
 
               <div class="row">
                 <!--Grid column-->
-                <div class="col-md-9 mb-md-0 mb-5">
+                <div class="col-md-12 col-lg-9">
                   <form action="" method="POST">
                     <!--Grid row-->
                     <div class="row">
@@ -600,21 +600,26 @@
                 <!--Grid column-->
 
                 <!--Grid column-->
-                <div class="col-md-3 text-center">
+                <div class="col-md-12 col-lg-3 text-center">
                   <ul class="list-unstyled mb-0">
                     <li>
                       <i class="fas fa-map-marker-alt fa-2x"></i>
-                      <p>5217 Sulok, Valenzuela, 1448 Metro Manila</p>
+                      <p>5091 Sulok St., Ugong, Valenzuela City, Metro Manila</p>
+                    </li>
+
+                    <li>
+                      <i class="fas fa-mobile mt-4 fa-2x"></i>
+                      <p>0955 470 5644</p>
                     </li>
 
                     <li>
                       <i class="fas fa-phone mt-4 fa-2x"></i>
-                      <p>+63 0955 470 5644</p>
+                      <p>367-0119</p>
                     </li>
 
                     <li>
                       <i class="fas fa-envelope mt-4 fa-2x"></i>
-                      <p>carreonborong@gmail.com</p>
+                      <p>rrdn.truckingservices@gmail.com</p>
                     </li>
                   </ul>
                 </div>
@@ -629,7 +634,7 @@
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3 text-white">© 2020 Copyright:
-      <a href="index.php"> RRDN-Trucking-Service.com</a>
+      <a class="text-white-50" href="index.php"> RRDN-Trucking-Service.com</a>
     </div>
     <!-- Copyright -->
 
