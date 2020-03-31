@@ -35,7 +35,7 @@
                 <div class="col-md-6">
                     <div class="md-form">
                         <i class="fas fa-phone prefix grey-text"></i>
-                        <input type="tel" name="phone" id="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" class="form-control validate">
+                        <input type="tel" name="phone" id="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" maxlength="14" class="form-control validate">
                         <label data-error="wrong" data-success="right" for="phone">Phone</label>
                     </div>                    
                 </div>
@@ -70,18 +70,25 @@
                     <div class="md-form" style="padding-right: 60px;">
                         <i class="fas fa-truck prefix grey-text"></i>
                         <select class="form-control selectpicker ml-5" name="truck" data-live-search="true">
-                            <option>Freezer Van</option>
-                            <option>Cargo Truck</option>
-                            <option>Close Van with Wing Doors</option>
-                            <option>Close Van (Rear Door)</option>
+                            <option value="">Select Truck</option>
+                            <option>Mitsubishi L300 FB</option>
+                            <option>4-Wheeler Open Truck</option>
+                            <option>4-Wheeler Closed Van</option>
+                            <option>6-Wheeler Closed Van</option>
+                            <option>6-Wheeler Forward Wingvan</option>
                         </select>
                     </div>                    
                 </div>
                 <div class="col-md-6">
-                    <div class="md-form">
+                    <div class="md-form" style="padding-right: 60px;">
                         <i class="fas fa-truck-loading prefix grey-text"></i>
-                        <input type="text" name="cargo" id="cargo" class="form-control">
-                        <label data-error="wrong" data-success="right" for="cargo">Type of Cargo</label>
+                        <select class="form-control selectpicker ml-5" name="service" data-live-search="true">
+                            <option value="">Select Service</option>
+                            <option>Lipat Bahay</option>
+                            <option>Office Transfer</option>
+                            <option>Trucking Services</option>
+                            <option>Warehouse Transfer</option>
+                        </select>
                     </div>                    
                 </div>
                 <div class="col-md-12">

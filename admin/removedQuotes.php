@@ -27,7 +27,7 @@
                 $pick_up_location = $row['pick_up_location'];
                 $drop_location = $row['drop_location'];
                 $truck = $row['truck'];
-                $cargo = $row['cargo'];
+                $service = $row['service'];
                 $remarks = $row['remarks'];
                 $status = $row['status'];
               ?>
@@ -66,7 +66,7 @@
                       <div class="md-v-line"></div><i class="fas fa-truck fa-lg mr-4"></i> <?php echo $truck; ?>
                     </li>
                     <li class="list-group-item">
-                      <div class="md-v-line"></div><i class="fas fa-truck-loading fa-lg mr-4"></i> <?php echo $cargo; ?>
+                      <div class="md-v-line"></div><i class="fas fa-truck-loading fa-lg mr-4"></i> <?php echo $service; ?>
                     </li>
                     <li class="list-group-item">
                       <div class="md-v-line"></div><i class="fas fa-pencil-alt fa-lg mr-4"></i> <?php echo $remarks; ?>

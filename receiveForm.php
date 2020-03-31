@@ -9,7 +9,7 @@
         $pick_up_location = $_POST['pick_up_location'];
         $drop_location = $_POST['drop_location'];
         $truck = $_POST['truck'];
-        $cargo = $_POST['cargo'];
+        $service = $_POST['service'];
         $remarks = $_POST['remarks'];
 
         include("function/addQuotes.php");
